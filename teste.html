@@ -1,0 +1,30 @@
+<head>
+
+</head>
+<script>
+    var nome = 'Gabriel';
+    var sobrenome = ' Mediotti Marques';
+    nomeCompleto = nome + sobrenome;
+
+    let cadastroCliente = [['Gabriel', 'Mediotti', 'Marques'], 19, 'Masculino', 'Engenharia de Computação'];
+    console.log(cadastroCliente)
+
+    var nomeSemEspacos = nome.replace(/\s/g, "");
+    var tamanhoNome = nomeSemEspacos.length;
+    var ultimaLetra = nome[nome.length-1];
+    //console.log('Olá', nome + ', seu nome tem', tamanhoNome, 'letras!');
+    //console.log('A ultima letra dos seu nome primeiro nome é:', ultimaLetra);
+    // "var" pode ser reutilizada durante todo o programa
+    // "let" só pode ser usado dentro do escopo onde foi declarado
+    // "const" uma variável que não é possivel mudar, caso seja alterada
+    //  gera erro.
+
+    let testezin = [[1, 2, 3], [4, 5, 6], [[7, 8, 9], [10, 11, 12]]]
+    testezin.push([13, 04, 02])
+    testezin.pop()
+    console.log(testezin)
+    
+    // Isso é equivalente a [[1, 2, 3], [4, 5, 6], [[7, 8, 9], 10, 11, 12], [13, 04, 02]]
+
+    //Nesse caso, é um array de 3 camadas, onde segue um esquema de árvore, o primeiro dois é pra ultima array, o 0 é para entrar na array que está contido e o 2 pega o ultimo valor dessa array
+</script>
